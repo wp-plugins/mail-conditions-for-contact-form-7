@@ -17,8 +17,9 @@ This plugin becomes active before Contact Form 7 sents a mail. It looks through 
 **DO NOT use nested conditions, it won't work.**
 
 Examples:
+
 * [if mail]Contact mail: [mail][/if]
-* [if subject="Error"]<h2>ERROR</h2>[/if]
+* [if subject="Error"]ERROR[/if]
 * [if radio="Yes"]Chosen option: YES[else]Chosen option: NO[/if]
 
 == Installation ==
